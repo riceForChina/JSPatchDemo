@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[JPViewController viewDidLoad]:JPViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[NSRunLoop mainRunLoop]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "defineClass:JPEngine.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[NSRunLoop mainRunLoop]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
