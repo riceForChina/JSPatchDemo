@@ -19,9 +19,9 @@
     [self text_child];
 }
 /*
- text  -> text_child_child
- text_child -> text
- text_child_child -> text_child
+ text  -> text_child
+ text_parent -> text
+ text_child -> text_parent
  */
 + (void)load {
     
