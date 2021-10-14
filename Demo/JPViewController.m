@@ -24,15 +24,15 @@
 //}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSObject *tempObj = [[NSObject alloc] init];
-    @synchronized (NULL) {
-        NSLog(@"----------------------first");
-        @synchronized (NULL) {
-            NSLog(@"----------------------second");
-        }
-        NSLog(@"----------------------third");
-    }
-    self.view.backgroundColor = [UIColor whiteColor];
+//    NSObject *tempObj = [[NSObject alloc] init];
+//    @synchronized (NULL) {
+//        NSLog(@"----------------------first");
+//        @synchronized (NULL) {
+//            NSLog(@"----------------------second");
+//        }
+//        NSLog(@"----------------------third");
+//    }
+//    self.view.backgroundColor = [UIColor whiteColor];
 //    TestProxy *proxy = [TestProxy alloc];
 //    [proxy text];
 //    NSContainerView *containerView = [[NSContainerView alloc] init];
@@ -40,11 +40,11 @@
 //    containerView.frame = self.view.bounds;
 //    self.containerView = containerView;
 //    
-//    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 50)];
-//    [btn setTitle:@"Push JPTableViewController" forState:UIControlStateNormal];
-//    [btn addTarget:self action:@selector(handleBtn:) forControlEvents:UIControlEventTouchUpInside];
-//    [btn setBackgroundColor:[UIColor grayColor]];
-//    [containerView addSubview:btn];
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 50)];
+    [btn setTitle:@"Push JPTableViewController" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(handleBtn:) forControlEvents:UIControlEventTouchUpInside];
+    [btn setBackgroundColor:[UIColor grayColor]];
+    [self.view addSubview:btn];
 ////    [self observer];
 ////    [NSThread observationInfo];
 ////    [NSRunLoop mainRunLoop]
